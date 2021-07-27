@@ -1,0 +1,32 @@
+
+@import "_header";
+
+ 
+h1{
+	color: chartreuse;
+}
+body{
+	font-size: 20px;
+	div{
+		font-size: 10px;
+
+	}
+}
+.block {
+
+	&__item {
+	}
+}
+.block {
+}
+.block__item {
+}
+.red{
+	color: red;
+}
+@media (max-width: 766px){
+	.red{
+		border: 0;
+	}
+}
+
